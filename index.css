@@ -100,16 +100,18 @@ body{
     animation: rotation 10s infinite linear;
 }
 .call-to-action{
+    text-decoration: none;
     position: absolute;
-    bottom: 25%;
-    left: 10%;
+    bottom: 32%;
+    left:10%;
     color: rgb(0, 0, 0);
-    height: 55px;
-    width: 120px;
+    height: 40px;
+    width: 110px;
     margin: 0;
     border: none;
     border-radius: 26px;
     font-size: 1.2rem;
+    text-align: center;
     font-family:'Pacifico', cursive ;
     background: white;
     transition: transform 0.2s ease;
@@ -144,6 +146,9 @@ body{
     }
 }
 @media (max-width: 768px){
+    .astro-wheel{
+        display:none;
+    }
     .icons{
         display: inline-flex;
 
